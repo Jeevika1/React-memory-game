@@ -13,35 +13,35 @@ import "./app.scss";
 const uniqueElementsArray = [
   {
     type: "A",
-    src:  '/A.png'
+    src:  'https://github.com/Jeevika1/React-memory-game/blob/main/public/A.png'
   },
   {
     type: "B",
-    src: '/B.png'
+    src: 'https://github.com/Jeevika1/React-memory-game/blob/main/public/B.png'
   },
   {
     type: "C",
-    src: '/C.png'
+    src: 'https://github.com/Jeevika1/React-memory-game/blob/main/public/C.png'
   },
   {
     type: "D",
-    src: '/D.png'
+    src: 'https://github.com/Jeevika1/React-memory-game/blob/main/public/D.png'
   },
   {
     type: "E",
-    src: '/E.png'
+    src: 'https://github.com/Jeevika1/React-memory-game/blob/main/public/E.png'
   },
   {
     type: "F",
-    src: '/F.png'
+    src: 'https://github.com/Jeevika1/React-memory-game/blob/main/public/F.png'
   },
   {
     type: "G",
-    src: '/G.png'
+    src: 'https://github.com/Jeevika1/React-memory-game/blob/main/public/G.png'
   },
   {
     type: "H",
-    src: '/H.png'
+    src: 'https://github.com/Jeevika1/React-memory-game/blob/main/public/H.png'
   }
 ];
 
