@@ -1,6 +1,6 @@
 import React from "react";
 import classnames from "classnames";
-import pokeball from "./images/pokeball.png";
+import alpha from "./images/Alpha.png";
 import "./card.scss";
 
 const Card = ({ onClick, card, index, isInactive, isFlipped, isDisabled }) => {
@@ -17,10 +17,10 @@ const Card = ({ onClick, card, index, isInactive, isFlipped, isDisabled }) => {
       onClick={handleClick}
     >
       <div className="card-face card-font-face">
-        <img src={pokeball} alt="pokeball" />
+        <img src={alpha} alt="alpha" />
       </div>
       <div className="card-face card-back-face">
-        <img src={card.image} alt="pokeball" />
+        <img src={card.src} alt="alpha" />
       </div>
     </div>
   );

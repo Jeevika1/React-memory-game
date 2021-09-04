@@ -12,28 +12,36 @@ import "./app.scss";
 
 const uniqueElementsArray = [
   {
-    type: "Pikachu",
-    image: require(`./images/Pickachu.png`)
+    type: "A",
+    src:  '/A.png'
   },
   {
-    type: "ButterFree",
-    image: require(`./images/ButterFree.png`)
+    type: "B",
+    src: '/B.png'
   },
   {
-    type: "Charmander",
-    image: require(`./images/Charmander.png`)
+    type: "C",
+    src: '/C.png'
   },
   {
-    type: "Squirtle",
-    image: require(`./images/Squirtle.png`)
+    type: "D",
+    src: '/D.png'
   },
   {
-    type: "Pidgetto",
-    image: require(`./images/Pidgetto.png`)
+    type: "E",
+    src: '/E.png'
   },
   {
-    type: "Bulbasaur",
-    image: require(`./images/Bulbasaur.png`)
+    type: "F",
+    src: '/F.png'
+  },
+  {
+    type: "G",
+    src: '/G.png'
+  },
+  {
+    type: "H",
+    src: '/H.png'
   }
 ];
 
@@ -118,6 +126,17 @@ export default function App() {
     return openCards.includes(index);
   };
 
+  window.onbeforeunload = (event) => {
+    const e = event || window.event;
+    // Cancel the event
+    e.preventDefault();
+    if (e) {
+      e.returnValue = ''; // Legacy method for cross browser support
+    }
+    return ''; // Legacy method for cross browser support
+  };
+  
+
   const checkIsInactive = (card) => {
     return Boolean(clearedCards[card.type]);
   };
@@ -158,7 +177,7 @@ export default function App() {
       <footer>
         <div className="score">
           <div className="moves">
-            <span className="bold">Moves:</span> {moves}
+            <span className="bold">ATTEMPTS:</span> {moves}
           </div>
           {localStorage.getItem("bestScore") && (
             <div className="high-score">
@@ -166,11 +185,11 @@ export default function App() {
             </div>
           )}
         </div>
-        <div className="restart">
+        {/* <div className="restart">
           <Button onClick={handleRestart} color="primary" variant="contained">
             Restart
           </Button>
-        </div>
+        </div> */}
       </footer>
       <Dialog
         open={showModal}
@@ -188,11 +207,11 @@ export default function App() {
             {bestScore} moves.
           </DialogContentText>
         </DialogContent>
-        <DialogActions>
+        {/* <DialogActions>
           <Button onClick={handleRestart} color="primary">
             Restart
           </Button>
-        </DialogActions>
+        </DialogActions> */}
       </Dialog>
     </div>
   );
