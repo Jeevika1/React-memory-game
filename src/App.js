@@ -13,35 +13,35 @@ import "./app.scss";
 const uniqueElementsArray = [
   {
     type: "A",
-    src:  'https://github.com/Jeevika1/React-memory-game/blob/main/public/A.png'
+    src:  'https://raw.githubusercontent.com/Jeevika1/React-memory-game/main/public/A.png'
   },
   {
     type: "B",
-    src: 'https://github.com/Jeevika1/React-memory-game/blob/main/public/B.png'
+    src: 'https://raw.githubusercontent.com/Jeevika1/React-memory-game/main/public/B.png'
   },
   {
     type: "C",
-    src: 'https://github.com/Jeevika1/React-memory-game/blob/main/public/C.png'
+    src: 'https://raw.githubusercontent.com/Jeevika1/React-memory-game/main/public/C.png'
   },
   {
     type: "D",
-    src: 'https://github.com/Jeevika1/React-memory-game/blob/main/public/D.png'
+    src: 'https://raw.githubusercontent.com/Jeevika1/React-memory-game/main/public/D.png'
   },
   {
     type: "E",
-    src: 'https://github.com/Jeevika1/React-memory-game/blob/main/public/E.png'
+    src: 'https://raw.githubusercontent.com/Jeevika1/React-memory-game/main/public/E.png'
   },
   {
     type: "F",
-    src: 'https://github.com/Jeevika1/React-memory-game/blob/main/public/F.png'
+    src: 'https://raw.githubusercontent.com/Jeevika1/React-memory-game/main/public/F.png'
   },
   {
     type: "G",
-    src: 'https://github.com/Jeevika1/React-memory-game/blob/main/public/G.png'
+    src: 'https://raw.githubusercontent.com/Jeevika1/React-memory-game/main/public/G.png'
   },
   {
     type: "H",
-    src: 'https://github.com/Jeevika1/React-memory-game/blob/main/public/H.png'
+    src: 'https://raw.githubusercontent.com/Jeevika1/React-memory-game/main/public/H.png'
   }
 ];
 
